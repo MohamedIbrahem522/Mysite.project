@@ -1,0 +1,347 @@
+body,html{
+    background-color: #F5F5F5;
+    --mycolor: #0477FC;
+}
+header{
+    background-image:url(../images/UATQGKPFOH.webp);
+    background-size: 100% 100%;
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 1;
+}
+.navcolor{
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 99999;
+} 
+.morgan{
+    margin-top: 250px;
+}
+.morgan h2{
+    color: white;
+}
+.morgan h2::after{
+    content: " ";
+    left: 100%;
+    animation: typing 9s infinite;
+}
+.morgansize{
+    font-size: 4.5rem;
+}
+.lineunder:hover{
+    border-bottom: 1px white solid;
+}
+.test{
+    justify-content: end;
+    margin-right: 100px;
+}
+.textinfo{
+    line-height: 2rem;
+}
+
+.about{
+    position: relative;
+}
+.about::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    height: 3px;
+    background-color: var(--mycolor);
+}
+
+.visual{
+   background: linear-gradient( to right, #0477FC 95%, #CDE1F8 50%);
+   width: 100%;
+   height: 10px;
+}
+.css3{
+    background: linear-gradient( to right, #0477FC 85%, #CDE1F8 50%);
+}
+.bsp{
+    background: linear-gradient( to right, #0477FC 70%, #CDE1F8 50%);
+}
+.js90{
+    background: linear-gradient( to right, #0477FC 40%, #CDE1F8 50%);
+}
+.e{
+    position: relative;
+}
+.title::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 49%;
+    height: 5px;
+    width: 30px;
+    background-color: var(--mycolor);
+}
+.icon{
+    border: solid var(--mycolor) 10px;
+    border-radius: 50%;
+    transition: 0.5s all;
+}
+.change:hover .icon{
+    border: solid rgba(243, 248, 255, 0.8) 10px;
+    background-color: #0477FC;
+    color: white;
+}
+.section4{
+    background-image: url(../images/p6.jpg);
+    background-size: 100% 100%;
+    height: 400px;
+}
+.layer2{
+    background-color: rgba(4, 119, 252, 0.7);
+}
+.s4c{
+    color: white;
+}
+.icon2{
+    border: solid 10px rgb(232, 229, 229);
+    border-radius: 50%;
+}
+.pictext{
+    font-size: 12px;
+}
+.work1 img{
+    transition: 0.5s all;
+}
+.work1:hover img{
+    transform: scale(1.1,1.1);
+}
+.section6{
+    background-image: url(../images/p6.jpg);
+    background-size: 100% 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.bcircle{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+}
+.pictext2{
+    font-size: 15px;
+}
+.pictext1 h5{
+    transition: 0.8 all;
+}
+.pictext1 h5:hover{
+    color: #0477FC;
+}
+.mfbackground{
+    background-color:rgba(46, 46, 46, 0.03);
+}
+.morgan{
+    width: 50%;
+}
+.morgan img{
+    width: 30px;
+    height: 30px;
+}
+.travelp{
+    position: relative;
+}
+.travel{
+    position: absolute;
+    top: 52%;
+    left: 43%;
+    font-size: 10px;
+    background-color: #0477FC;
+}
+.travel2{
+    position: absolute;
+    top: 52%;
+    left: 40%;
+    font-size: 10px;
+    background-color: #0477FC;
+}
+.section8{
+    background-image: url(../images/p6.jpg);
+    background-size: 100% 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+}
+.title2{
+    position: relative;
+}
+.title2::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 2%;
+    height: 2px;
+    width: 100px;
+    background-color: var(--mycolor);
+}
+.bs8{
+    border: solid rgb(209, 209, 209) 1px;
+}
+.bchange{
+    border: solid rgba(175, 175, 175, 0) 5px;
+    background-color: var(--mycolor);
+    transition: 0.5s all;
+}
+.bchange:hover {
+    background-color: #2e8dfa;
+    border: solid rgba(243, 248, 255, 0.8) 5px;
+     
+}
+.contacttext ul{
+    list-style: none;
+}
+.sib{
+    border: solid 3.5px var(--mycolor);
+    transition: 0.5s all;
+}
+.sib:hover{
+    background-color: var(--mycolor);
+    border: solid 3.5px #CDE1F8;
+}
+.sib i{
+    transition: 0.5s all;
+}
+.sib:hover i{
+    color: white;
+}
+.final{
+    background: #0162D3;
+}
+
+
+.NAM:hover{
+    color: #0162D3;
+}
+
+
+@keyframes typing {
+    0%{
+        content: " ";
+    }
+    2%{
+        content: "D|";
+    }
+    4%{
+        content: "De";
+    }
+    6%{
+        content: "Des|";
+    }
+    8%{
+        content: "Desi";
+    }
+    10%{
+        content: "Desig|";
+    }
+    12%{
+       content: "Design"; 
+    }
+    14%{
+        content: "Designe|"; 
+    }
+    16%{
+        content: "Designer"; 
+    }
+    18%{ 
+        content: "D|"; 
+    }
+    20%{
+        content: "De"; 
+    }
+    22%{
+        content: "Dev|"; 
+    }
+    24%{
+        content: "Deve";
+    }
+    26%{
+        content: "Devel|";
+    }
+    28%{
+        content: "Develo";
+    }
+    30%{
+        content: "Develop|";
+    }
+    32%{
+        content: "Develope";
+    }
+    34%{
+        content: "Developer|.";
+    }
+    36%{
+        content: "F";
+    }
+    38%{
+        content: "Fr|";
+    }
+    40%{
+        content: "Fre";
+    }
+    42%{
+        content: "Free|";
+    }
+    44%{
+        content:"Freel"
+    }
+    46%{
+        content:"Freela|"
+    }
+    48%{
+        content:"Freelan"
+    }
+    50%{
+        content:"Freelanc|"
+    }
+    52%{
+        content:"Freelance"
+    }
+    54%{
+        content:"Freelancer|"
+    }
+    56%{
+        content:"P"
+    }
+    58%{
+        content:"Ph|"
+    }
+    60%{
+        content:"Pho"
+    }
+    62%{
+        content:"Phot|"
+    }
+    64%{
+        content:"Photo"
+    }
+    66%{
+        content:"Photo|"
+    }
+    68%{
+        content: "Photog";
+    }
+    70%{
+        content: "Photog|";
+    }
+    72%{
+        content: "Photogr";
+    }
+    74%{
+        content: "Photogra|";
+    }
+    76%{
+        content: "Photograp";
+    }
+    78%{
+        content: "Photograph|";
+    }
+    80%{
+        content: "Photographe";
+    }
+    100%{
+        content: "Photographer|";
+    }
+}    
